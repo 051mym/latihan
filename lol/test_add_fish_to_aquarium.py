@@ -9,5 +9,6 @@ def add_fish_to_aquarium(fish_list):
 class TestAddFishToAquarium(unittest.TestCase):
     def test_add_fish_to_aquarium_success(self):
         actual = add_fish_to_aquarium(fish_list=["shark", "tuna"])
+        # berikan hasil test sesuai fish_list
         expected = {"tank_a": ["rabbit"]}
         self.assertEqual(actual, expected)
