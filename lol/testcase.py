@@ -18,7 +18,7 @@ class RmTestCase(unittest.TestCase):
         # test that it was actually removed
         self.assertFalse(os.path.isfile(self.tmpfilepath), "Failed to remove the file.")
 
-
+# Hasil testcase masih salah, sorry belum bisa dijalankan
 # from mymodule import rm
 
 # import mock
